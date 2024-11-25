@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student_details</title>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        #a{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction="left">Enter the valid details</marquee>
+    <img src="tap logo.png" alt="" id="a">
+    <form action="thanks.html">
+        <fieldset>
+            <legend>personal details</legend>
+            <label for="Fname">First Name    </label> 
+            <input type="text" required id="Fname" pattern="[A-Z a-z]{2,9}"> <br><br>
+            <label for="lname">last Name    </label>
+            <input type="text" required id="lname" pattern="[A-Z a-z]{2,5}"><br><br>
+            <label for="Em">Email</label>
+            <input type="text" required id="Em" pattern="[a-z.@]{5,30}"><br><br>
+            <label for="pinnumber">Enter phone number</label>
+            <input type="text" id="pinnumber" pattern="[6-9]{1}[0-9]{9}"><br><br>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Education details</legend>
+            <label for="">Department</label><br><br>
+            <input type="radio" id="Mech" name="Dept">
+            <label for="Mech">Mechanical Engineer</label>
+            <input type="radio" id="cse" name="Dept">
+            <label for="cse">Computer science</label>
+            <input type="radio" id="Ece" name="Dept">
+            <label for="Ece">Electrical and communication</label>
+            <input type="radio" id="CE" name="Dept" >
+            <label for="CE"> Civil</label> <br><br>
+            <label for="">Year of Graduation</label>
+            <input list="yog"><br><br>
+            <datalist id="yog">
+                <option >2022</option>
+                <option >2023</option>
+                <option >2024</option>   
+            </datalist>
+        
+            <label for="">Skills</label><br><br>
+            <input type="checkbox" name="" id="j">
+            <label for="j">Java</label><br>
+            <input type="checkbox" id="s">
+            <label for="">SQL</label><br>
+            <input type="checkbox" id="hs">
+            <label for="">Html&css</label><br>
+            <input type="checkbox" id="d">
+            <label for="d">DSA</label>  <br><br>
+              
+            
+            
+            
+        </fieldset>
+        <input type="submit"> <br><br>  
+      
+        
+    </form>
+    <h2>Tap academy loaction</h2><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8662044242737!2d77.60805687454578!3d12.916319716088983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d6411bbb945%3A0x884e5e751a18bc1!2sTAP%20Academy%20BTM!5e0!3m2!1sen!2sin!4v1732421070945!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
